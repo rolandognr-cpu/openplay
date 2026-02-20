@@ -4,6 +4,11 @@
     box-sizing: border-box;
     font-family: sans-serif;
 }
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
 
 .navbar {
     
@@ -95,6 +100,7 @@ li div {
 }
 
  .navbar-link-sub {
+    background-color: white;
     display: flex;
     gap: 15px;
     display: none;
@@ -123,3 +129,23 @@ li div {
     box-shadow: 0 0 5px rgba(0,0,0, 0.5);
     cursor: pointer;
 }
+
+/*-------------- END OF NAVBAR------------*/
+
+.front-image {
+    background: url("IMGS/7a16c4b6-3bad-4b3e-b892-4c8a2cbb28f0699050605.png");
+    /* height: calc(100vh - 60px); */
+    height: 100%;
+    background-size: cover;
+    background-position: bottom;
+}
+
+/* --------------FOOTER--------------- */
+
+
+
+
+
+
+
+
