@@ -141,11 +141,100 @@ li div {
 }
 
 /* --------------FOOTER--------------- */
+footer {
+
+}
+
+.footer-container {
+    display: flex;
+    padding: 30px 15px;
+    width: 1000px;
+    justify-content: space-around;
+    margin: auto;
+    
+}
+
+.widget-logo img {
+    height: 90px;
+    margin-bottom: 10px;
+}
+
+.social-widget div p{
+    line-height: 26px;
+}
+
+.social-icons {
+    margin-top: 20px;
+}
+.social-icons ul {
+    display: flex;
+}
+
+.social-icons ul li {
+    margin-right: 8px;
+}
 
 
 
 
+.social-icons ul li {
+    background-color: rgb(16, 155, 75);
+    /* background-color: white; */
+    height: 40px;
+    width: 40px;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+}
 
+.social-icons ul li div {
+    background-color: white;
+    border-radius: 50%;
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    
+    
+}
 
+.social-icons ul li i {
+    z-index: 10;
+}
+
+.hours-widget {
+    width: 310px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
+    
+}
+
+.hours-widget h4 {
+    font-weight: 600;
+    font-size: 1.25rem;
+    margin-bottom: 20px;
+}
+
+.hours-widget ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.hours-widget ul li {
+    display: flex;
+    justify-content: space-between;
+    font-weight: 500;
+    line-height: 10px;
+    height: 2rem;
+}
+
+.powered-by {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+    font-size: 14.4px;
+    color: rgb(151, 151, 151)
+}
 
 
